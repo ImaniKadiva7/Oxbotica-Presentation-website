@@ -140,6 +140,11 @@ header nav ul li a.active
 {
     color: blue;
 }
+.about-first-section-container img
+{
+    width: 100%;
+    height: auto;
+}
 /*------------------------------------------*/
 footer
 {
