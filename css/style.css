@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    margin: inherit;
+    padding: inherit;
+    box-sizing: inherit;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*--------------------------------------------*/
+header
+{
+    display: flex;
+    padding: 1% 15%;
+    justify-content: space-between;
+    align-items: baseline;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+header h1
+{
+    font-size: 1.8rem;
+    color: #E1E5E8;
+    margin: 0;
+}
+header nav ul
+{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+header nav ul li
+{
+    margin-right: 20px;
+}
+a
+{
+    color: #E1E5E8;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+header nav ul li a.active
+{
+    border-bottom: 2px solid #E1E5E8;
+}
+/*----------------------------------------------*/
+.first-section
+{
+    padding: 2% 30%;
+    display: flex;
+    align-items: center;
+}
+.first-section img
+{
+    width: 250px;
+    height: auto;
+    margin-right: 10%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.first-section aside div
+{
+    margin-bottom: 20px;
+}
+.first-section aside p
+{
+    font-size: 1.3rem;
+    padding: 5px 5px;
+    background-color: #fff;
+    margin: 0;
+}
+.first-section aside .introduction-link
+{
+    text-align: center;
+}
+.introduction-link a
+{
+    padding: 3% 20%;
+    background-color: #ff9966;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    opacity: 0.9;
+}
+.introduction-link a:hover
+{
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.6s;
+}
+
+@media(max-width: 576px)
+{
+    .first-section
+    {
+        flex-direction: column;
+    }
+    .first-section aside p
+    {
+        font-size: 1rem;
+    }
+    header
+    {
+        background: #1F2937;
+    }
+    .introduction-link a
+    {
+        opacity: 1;
+    }
+    .introduction-content
+    {
+        width: 100%;
+        height: auto;
+    }
+}
