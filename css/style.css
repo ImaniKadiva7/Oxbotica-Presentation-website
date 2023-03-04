@@ -104,7 +104,6 @@ header nav ul li a.active
     .first-section
     {
         flex-direction: column;
-        justify-content: center;
     }
     .first-section aside p
     {
@@ -113,6 +112,11 @@ header nav ul li a.active
     header
     {
         background: #1F2937;
+        flex-direction: column;
+    }
+    header h1
+    {
+        text-align: center;
     }
     .introduction-link a
     {
