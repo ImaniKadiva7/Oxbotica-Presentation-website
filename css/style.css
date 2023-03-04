@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body
+.home-body-class
 {
     margin: inherit;
     padding: inherit;
@@ -15,6 +15,7 @@ body
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 /*--------------------------------------------*/
 header
 {
@@ -26,6 +27,18 @@ header
     top: 0;
     width: 100%;
     margin-bottom: 10px;
+}
+.about-header-section
+{
+    display: flex;
+    padding: 1% 15%;
+    justify-content: space-between;
+    align-items: baseline;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #1F2937;
 }
 header h1
 {
@@ -97,6 +110,47 @@ header nav ul li a.active
     cursor: pointer;
     opacity: 1;
     transition: 0.6s;
+}
+/*------------------------------------------------*/
+.about-first-section
+{
+    padding: 2% 20%;
+}
+.about-first-section-container
+{
+    padding: 1% 10%;
+    background: #E5E7EB;
+}
+.about-first-section-container h2
+{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.about-first-section-container p
+{
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+.about-first-section-container ul
+{
+    margin-bottom: 10px;
+}
+.about-first-section-container ul li p a
+{
+    color: blue;
+}
+/*------------------------------------------*/
+footer
+{
+    text-align: center;
+    padding: 1% 0;
+    background: #1F2937; 
+}
+footer p
+{
+    font-size: 1.2rem;
+    color: #E1E5E8
 }
 
 @media(max-width: 576px)
